@@ -846,6 +846,21 @@ files = [
 wcwidth = "*"
 
 [[package]]
+name = "proplot"
+version = "0.9.5"
+description = "A succinct matplotlib wrapper for making beautiful, publication-quality graphics."
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+files = [
+    {file = "proplot-0.9.5-py3-none-any.whl", hash = "sha256:be7a5627726792b2d91d94fc05a0e3405910031185f09d778ce33a53b915c379"},
+    {file = "proplot-0.9.5.tar.gz", hash = "sha256:2c770263296d434ae3bceeb8689268bfe1da5d4b15ae8c1b6c4107d82e5263d0"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+
+[[package]]
 name = "psutil"
 version = "5.9.4"
 description = "Cross-platform lib for process and system monitoring in Python."
@@ -1164,4 +1179,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "852d46143abaf04adbbfd00d1c40addb64b6885cf9fd63745d17e7eea817713c"
+content-hash = "163e2457acd70d07b98c34b796b70b7db2642a0b695ac5196e818fbf1d608f87"
