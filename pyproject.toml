@@ -7,9 +7,9 @@ readme = "README.md"
 packages = [{include = "dartwork_mplstyle"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-matplotlib = "^3.6.2"
-numpy = "^1.24.1"
+python = "^3.9"
+matplotlib = "=3.4.3"
+numpy = "=1.21.0"
 ipykernel = "^6.19.4"
 proplot = "^0.9.5"
 
